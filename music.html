@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apostolic church of ethiopia Songs</title>
+	<style type="text/css">
+	marquee{
+	    color:purple;
+	    background-color:white;
+	    width: 75%;
+	}
+	    button,a{
+         text-decoration:none;
+         color:red;
+         background-color: blue;
+	    }
+	    button:hover{
+	        text-decoration:underline;
+	    }
+	</style>
+	<script>
+	function create(){
+	    alert('Enter the song title, url and description in the following provided space');
+	}
+	function Update(){
+	    alert('select the song you want to Update');
+	}
+	function Delete(){
+	    alert('All of the song informations are going to be lost');
+	}
+	function save(){
+	    if(document.getElementById('yes').value=="" || document.getElementById('right').value=="" || document.getElementById('ok').value==""){
+	   alert('Make sure you have inserted all fields correctly'); }
+	   else{
+	       alert('successfully saved');
+	   }
+	}
+	</script>
+</head>
+<body bgcolor="cyan">
+	<marquee direction="left" schrollamount=5><h1 align="center">List Of Songs</h1></marquee>
+	<p align="left"><button id="btncreate" onclick="create()"><a decoration="none" href="#yes">Create</a></button></p> 
+	<p align="left"><button id="btnupdate" onclick="Update()">Update</button></p> 
+	<p align="left"><button id="btndelete" onclick="Delete()">Delete</button></p>
+    <p align="center">
+	    <video  width="320" height="240" controls>
+	    
+	         <source src="እንደ ቀድሞው ዘመን  Hibret 19  Apostolic Church Song_.mp4" type="video/mp4">
+	    </video>
+	</p>
+	<h3 align="center">Hibret 19 (እንደ ቀድሞው ዘመን)
+	</h3>
+    <p align="center">
+	    <video  width="320" height="240" controls>
+	    
+	         <source src="new_song_by_singer_nebyu_abera_nebsane_melskate(360p).mp4" type="video/mp4">
+	    </video>
+	</p>
+	<h3 align="center">Nebeyu Abera (ነፍሴን መለስካት)
+	</h3>
+    <p align="center">
+	    <video  width="320" height="240" controls>
+	    
+	         <source src="Apostolic church song.mp4" type="video/mp4">
+	    </video>
+	</p>
+	<h3 align="center">Shakiso choir (Waaqa Keenyaaf)
+	</h3>
+    <p align="center">
+	    <video  width="320" height="240" controls>
+	    
+	         <source src="ዘማሪት_አስቴር_ሰይፉ_NewApostolicSong(720p).mp4" type="video/mp4">
+	    </video>
+	</p>
+	<h3 align="center">Aster Seifu (ይናቀኝ)
+	</h3>
+ <form >
+	<input id="yes" required type="text" name="title" value="" placeholder="Enter the song title">
+	 <input id="right" required type="text" name="url" value="" placeholder="Enter the song vedio url">
+     <input id="ok"  required type="text" name="description" value="" placeholder="Enter Description of your song">
+     <p align="center"><button id="btnsubmit" onclick="save()">Save</button> </p>
+ </form>
+</body>
+</html>
